@@ -36,13 +36,18 @@
                 <a href="#" class="nav-link">Home</a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link">Home</a>
-            </li>
+              <a href="#" class="nav-link">About Us</a>
+          </li>
+            <div class=" nav-item dropdown">
+              <a class="dropdown-toggle nav-link" href="#" id="dropdownMenuLink" data-mdb-toggle="dropdown">Services</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </div>
             <li class="nav-item">
-                <a href="#" class="nav-link">Home</a>
-            </li>
-            <li class="nav-item">
-                <a href="#" class="nav-link">Home</a>
+                <a href="#" class="nav-link">Contact Us</a>
             </li>
            </ul>
 
@@ -59,15 +64,16 @@
    </nav>
 
 <!-- Carousel wrapper -->
-<div id="carouselDarkVariant" class="carousel slide carousel-fade carousel-dark" data-mdb-ride="carousel">
+<div id="carouselDarkVariant" class="carousel slide carousel-fade carousel-light" data-mdb-ride="carousel">
+
     <!-- Indicators -->
     <div class="carousel-indicators">
       <button
-        data-mdb-target="#carouselDarkVariant"
-        data-mdb-slide-to="0"
-        class="active"
-        aria-current="true"
-        aria-label="Slide 1"
+      data-mdb-target="#carouselDarkVariant"
+      data-mdb-slide-to="0"
+      class="active"
+      aria-current="true"
+      aria-label="Slide 1"
       ></button>
       <button
         data-mdb-target="#carouselDarkVariant"
@@ -86,9 +92,14 @@
       <!-- Single item -->
       <div class="carousel-item active">
         <img src="./images/hospital.png" class="d-block w-100" alt="Motorbike Smoke"/>
-        <div class="carousel-caption d-none d-md-block">
-          <h5>First slide label</h5>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)"></div>
+        <div class="carousel-caption">
+          <div class="row">
+            <div class="col-md-6">
+              <h1 class="text-light fw-1">"...Caring for the total man"</h1>
+              <p>Our Vision is to be the safest, most effective hospital in Nigeria characterized by quality, sound ethical and compassionate patient-centered care that seeks physical cure as well as peace of the soul.</p>
+            </div>
+          </div>
         </div>
       </div>
   
@@ -125,6 +136,74 @@
   <!-- Carousel wrapper -->
    
 
+<!-- About Us  -->
+<!-- review padding -->
+<div class="container pt-3-md py-3 py-0-md px-2">  
+  <p class="h3 text-center">ABOUT US</p>
+  <div class="row mt-5-md mt-4 align-items-center">
+    <div class="col-md-6">
+      <h1 class="py-2">We Are <span>Herit-Joy</span></h1>
+      <p>We believe in the sacredness of life and the dignity of all people regardless of race, religion and economic class. So we draw our inspiration from the love of God towards all men and His desire to see all men be in health even as their soul prospers.</p>
+      <div class="pt-2">
+        <a href="#" class="btn btn-primary">More About us</a>
+      <a href="#" class="btn btn-danger">Contact us</a>
+      </div>
+    </div>
+    <div class="col-md-6 text-center d-none d-md-block">
+      <img src="./images/surgery.jpg" class="img-fluid w-75" alt="">
+    </div>
+  </div>
+</div>
+
+<!-- priority  -->
+<!-- put an animation on the text with JS  -->
+<div class="">
+  <div class="bg-image text-center" style="background-image: url(./images/doctors.png); height:25vh">
+    <div class="mask" style="background-color:rgba(0, 45, 128, 0.342);"></div>
+    <div class="pt-5" style="z-index:2; position:relative">
+      <p class="h3 text-light">YOUR HEALTH IS OUR PRIORITY</p>
+      <p>we are commited to caring for the whole body, mind and spirit</p>
+    </div>
+  </div>
+</div>
+
+<!-- departments  -->
+<div class="container py-5">
+  <p class="h1 text-center">Herit-Joy <span>Departments</span></p>
+  <div class="row mt-5">
+    <div class="col-md-5">
+      <ul class="" style="list-style-type: none;">
+        <li class="p-2 border"><a href=""> <i class="fa-solid fa-user-nurse"></i> Obstetrics & Gynaecology</a></li>
+        <li class="p-2 my-2 border"><a href=""> <i class="fa-solid fa-stethoscope"></i> Internal Medicine & Endocrinology</a></li>
+        <li class="p-2 border"><a href=""> <i class="fa-solid fa-heart-pulse"></i> General Surgery</a></li>
+        <li class="p-2 my-2 border"><a href=""> <i class="fa-solid fa-square-plus"></i> Ultrasound Services</a></li>
+        <li class="p-2 border"><a href=""> <i class="fa-solid fa-microscope"></i> Laboratory Services</a></li>
+      </ul>
+    </div>
+    <div class="col-md-7">
+      <div class="text-center">
+        <h2>Obstetrics & Gynaecology</h2>
+        <ul class="" style="list-style-type: none;">
+          <li><i class="fa-solid fa-check"></i> Natural births and cesarean deliveries</li>
+          <li class=""><i class="fa-solid fa-check"></i> Natural births and cesarean deliveries</li>
+          <li><i class="fa-solid fa-check"></i> Natural births and cesarean deliveries</li>
+          <li><i class="fa-solid fa-check"></i> Natural births and cesarean deliveries</li>
+          <li><i class="fa-solid fa-check"></i> Natural births and cesarean deliveries</li>
+          <li><i class="fa-solid fa-check"></i> Natural births and cesarean deliveries</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <!-- <section class="about">
+    <div class="">
+      <div class="bg-image" style="background-image: url(./images/doctors.png); height: 70vh">
+        
+      </div>
+    </div>
+  </section> -->
 
 
 
